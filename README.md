@@ -1,4 +1,5 @@
-# Collapsing-multiples-instances-in-sympy-using-hashes.
+# Collapsing-multiples-instances-in-sympy-using-string-representation.
+
 This small project is a short note on how SymPy creates multiple instances of object which have the same name and type and in such cases it can be difficult to refer to a specific variable. 
 It is specifically troublesome when an instance is created by sympy itself. Troubleshooting in this case can be a nightmare.
 
